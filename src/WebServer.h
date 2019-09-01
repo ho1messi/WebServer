@@ -6,4 +6,6 @@ class WebServer {
 public:
     WebServer(ServerConfig config);
     virtual ~WebServer();
+
+    void exec();
 };
